@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bourstadlib"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = ["Charles Dupont <charlo.dupont@gmail.com>"]
 license = "MIT"
