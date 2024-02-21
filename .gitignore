@@ -2,5 +2,6 @@
 .venv/*
 .cache/*
 dist/*
+.vscode/*
 
 .env
