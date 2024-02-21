@@ -1,7 +1,6 @@
 """
 Config module for BourstadLib
 """
-
 from decouple import config  #type: ignore
 
 
@@ -18,6 +17,7 @@ def _get_keys_from_env() -> dict:
 class Config:
     def __init__(self,
                  api_keys: dict|None = None,
+                 
                  ):
         if api_keys:
             self._keys: dict = api_keys
@@ -25,3 +25,8 @@ class Config:
             self._keys:dict = _get_keys_from_env() #type: ignore[no-redef]
             
         self._apis = list(self._keys)
+        
+        """
+        if sqlite,
+        
+        """
