@@ -381,7 +381,7 @@ types-pytz = ">=2022.1.1"
 name = "psycopg2"
 version = "2.9.9"
 description = "psycopg2 - Python-PostgreSQL Database Adapter"
-optional = true
+optional = false
 python-versions = ">=3.7"
 files = [
     {file = "psycopg2-2.9.9-cp310-cp310-win32.whl", hash = "sha256:38a8dcc6856f569068b47de286b472b7c473ac7977243593a288ebce0dc89516"},
@@ -403,7 +403,7 @@ files = [
 name = "pymysql"
 version = "1.1.0"
 description = "Pure Python MySQL Driver"
-optional = true
+optional = false
 python-versions = ">=3.7"
 files = [
     {file = "PyMySQL-1.1.0-py3-none-any.whl", hash = "sha256:8969ec6d763c856f7073c4c64662882675702efcb114b4bcbb955aea3a069fa7"},
@@ -656,4 +656,4 @@ postgresql = ["psycopg2"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12.1"
-content-hash = "f031ffd8d1cb26bf11b336ee8d4c14eff0cf82a99ed717f09b5e704e1906b312"
+content-hash = "d25fbf88c3bc9dc7860a4749699ef326bbb7f71b797f27e95113a75f16a5d64e"
