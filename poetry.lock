@@ -649,11 +649,7 @@ h2 = ["h2 (>=4,<5)"]
 socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
 
-[extras]
-mysql = ["pymysql"]
-postgresql = ["psycopg2"]
-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12.1"
-content-hash = "d25fbf88c3bc9dc7860a4749699ef326bbb7f71b797f27e95113a75f16a5d64e"
+content-hash = "0bcf4d502a8bc0f765e9a0cf10765aad9acd5e0a025f41d7ad3416f4c3ebd29d"
